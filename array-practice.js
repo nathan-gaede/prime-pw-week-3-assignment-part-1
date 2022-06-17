@@ -97,7 +97,9 @@ let replacedFood = foods[1] = 'spring rolls';
 console.log(`Favorite foods are now ${foods}`);
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
-
+foods.sort();
+foods.reverse();
+console.log(`Sorted favorite foods in alphabetical order, then reversed the list order. Here is the new list:${foods}.`)
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
